@@ -26,8 +26,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'pry',       '~> 0.10'
   gem.add_development_dependency 'pry-nav',   '~> 0.2'
 
-  gem.add_dependency 'faraday', '~> 1.0'
-  gem.add_dependency 'faraday_middleware', '~> 1.1'
+  gem.add_dependency 'faraday', '>= 1.0', '< 3'
   gem.add_dependency 'json', '~> 2.6'
   gem.add_dependency 'hashie', '~> 3.6'
 end
